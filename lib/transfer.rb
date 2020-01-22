@@ -17,5 +17,6 @@ attr_accessor :sender, :receiver, :amount, :status
       sender.balance -= amount
       reciver.balance += amount
       self.status = 'complete'
+    else
       
 end
