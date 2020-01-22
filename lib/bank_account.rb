@@ -8,5 +8,10 @@ attr_accessor :status, :balance
     @balance = 1000
   end
   
+  def deposit(amount)
+    @balance += amount
+  end
   
+  def display_balance
+    puts 
 end
