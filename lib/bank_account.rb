@@ -13,7 +13,7 @@ attr_accessor :status, :balance
   end
   
   def display_balance
-    puts "Balance is $#{self.balance}."
+   "Balance is $#{self.balance}."
   end
   
   def valid?
