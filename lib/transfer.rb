@@ -22,9 +22,11 @@ attr_accessor :sender, :receiver, :amount, :status
     end
   end
   def reject_transfer
+    @status = "rejected"
+  end
   
-  
-  
+  def reverse_transfer
+    
   
   
   
