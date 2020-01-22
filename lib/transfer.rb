@@ -1,5 +1,5 @@
 class Transfer
-attr  
+attr_reader   
   
   def initialize(sender, receiver, amount)
     @sender = sender 
