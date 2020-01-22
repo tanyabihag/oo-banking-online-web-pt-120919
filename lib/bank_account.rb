@@ -13,5 +13,5 @@ attr_accessor :status, :balance
   end
   
   def display_balance
-    puts 
+    puts "Balance is $#{self.balance}."
 end
