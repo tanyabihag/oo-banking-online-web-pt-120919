@@ -18,5 +18,19 @@ attr_accessor :sender, :receiver, :amount, :status
       reciver.balance += amount
       self.status = 'complete'
     else
-      
+      reject_transfer
+    end
+  end
+  def reject_transfer
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 end
