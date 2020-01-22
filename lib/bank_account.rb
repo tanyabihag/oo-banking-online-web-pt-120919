@@ -17,5 +17,5 @@ attr_accessor :status, :balance
   end
   
   def valid?
-  status == "open" && 
+  status == "open" && balance > 0 
 end
