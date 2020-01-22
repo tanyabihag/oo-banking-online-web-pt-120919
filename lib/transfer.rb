@@ -16,4 +16,6 @@ attr_accessor :sender, :receiver, :amount, :status
     if valid? && sender.balance > amount && self.status == 'pending'
       sender.balance -= amount
       reciver.balance += amount
+      self.status = 'complete'
+      
 end
